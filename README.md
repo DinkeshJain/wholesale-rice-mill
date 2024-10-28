@@ -1,6 +1,6 @@
 # wholesale-rice-mill
 
-#Creating Apex Classes :
+# Creating Apex Classes :
 
 Apex classes are modeled on their counterparts in Java. You’ll define, instantiate, and extend classes, and you’ll work with interfaces, Apex class versions, properties, and other related class concepts.
 
@@ -11,7 +11,7 @@ Object:
 Object is an instance of a class, where it can access all the properties that are present in a class i.e, variables and methods.
 
 
-Apex Class:
+# Apex Class:
 Here, this Apex class is used to automate the sending of email notifications to a list of consumers for encouraging further engagement with personalized messaging.
 
 We take a List with 'consumer__c' object datatype named 'con' which contains the list of all the consumers.
@@ -24,7 +24,7 @@ The steps of email creation are:
 
 The message is sent through email to every consumer by 'Messaging.sendEmail'
 
-Apex Triggers:
+# Apex Triggers:
 Apex Triggers in this case are used to automatically send a welcome email to consumers right after they have been inserted into the system, ensuring immediate engagement with the new customers.
 
 The trigger is set to execute only after the insert operation on 'consumer__c'. The 'if' conditions exist to check whether the trigger runs only in 'after insert' context.
